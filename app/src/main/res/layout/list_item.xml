@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="134dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="126dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="消费备注"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/tv_title"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="2020-12-31"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="91dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="310dp"
+        android:gravity="center"
+        android:text="25"
+        android:textColor="#8F3436"
+        android:textSize="24sp" />
+</RelativeLayout>

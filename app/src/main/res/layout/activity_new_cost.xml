@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <DatePicker
+        android:id="@+id/dp_cost_date"
+        android:layout_width="359dp"
+        android:layout_height="385dp"
+        android:layout_margin="8dp"
+        android:calendarViewShown="true"
+        android:datePickerMode="spinner"
+        android:headerBackground="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/et_cost_money"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="消费金额"
+        android:inputType="number|numberDecimal"
+        android:textColor="#ffbd27"
+        android:textColorLink="#2196F3" />
+
+    <EditText
+        android:id="@+id/et_cost_title"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="消费备注"
+        android:textColor="#ffbd27" />
+
+    <Button
+        android:layout_width="342dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#4169E1"
+        android:onClick="okButton"
+        android:text="记录"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="#2196F3"
+        android:textColorLink="#2196F3"
+        android:textSize="20dp" />
+</LinearLayout>
